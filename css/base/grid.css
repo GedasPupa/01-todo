@@ -1,0 +1,109 @@
+/* GRID >>> */
+.container {
+    width: 800px;
+    margin: 80px auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 50px);
+    grid-template-rows: repeat(12, 30px);
+}
+
+.input-1 {
+    grid-column: 2 / span 4;
+    grid-row: 2;
+    background-color: lightgreen;
+}
+
+.input-2 {
+    grid-column: 7 / span 4;
+    grid-row: 2;
+    background-color: lightgreen;
+}
+
+.btn-1 {
+    grid-column: 12 / span 2;
+    grid-row: 2;
+    background-color: lightblue;
+}
+
+.btn-2 {
+    grid-column: 14 / span 2;
+    grid-row: 2;
+    background-color: lightblue;
+}
+
+.english {
+    grid-column: 2 / span 4;
+    grid-row: 4;
+}
+
+.lietuviu {
+    grid-column: 7 / span 4;
+    grid-row: 4;
+}
+
+.actions {
+    grid-column: 12 / span 4;
+    grid-row: 4;
+}
+
+.output-1 {
+    grid-column: 2 / span 4;
+    grid-row: 5;
+}
+
+.output-2 {
+    grid-column: 7 / span 4;
+    grid-row: 5;
+}
+
+.btn-3 {
+    grid-column: 12 / span 2;
+    grid-row: 5;
+}
+
+.btn-4 {
+    grid-column: 14 / span 2;
+    grid-row: 5;
+}
+
+.output-3 {
+    grid-column: 2 / span 4;
+    grid-row: 6;
+}
+
+.output-4 {
+    grid-column: 7 / span 4;
+    grid-row: 6;
+}
+
+.btn-5 {
+    grid-column: 12 / span 2;
+    grid-row: 6;
+}
+
+.btn-6 {
+    grid-column: 14 / span 2;
+    grid-row: 6;
+}
+
+.output-5 {
+    grid-column: 2 / span 4;
+    grid-row: 7;
+}
+
+.output-6 {
+    grid-column: 7 / span 4;
+    grid-row: 7;
+}
+
+.btn-7 {
+    grid-column: 12 / span 2;
+    grid-row: 7;
+}
+
+.btn-8 {
+    grid-column: 14 / span 2;
+    grid-row: 7;
+}
+/* <<< GRID */

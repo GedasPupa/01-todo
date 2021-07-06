@@ -1,0 +1,41 @@
+.input {
+    border-radius: 3px;
+}
+
+.main-btn {
+    align-self: center;
+    justify-self: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.main-btn:hover, .action-btn:hover {
+    cursor: pointer;
+}
+
+.label {
+    font-size: larger;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+}
+
+.data {
+    align-self: center;
+    justify-self: center;
+
+    background-color: aquamarine;
+}
+
+.action-btn {
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    background-color: transparent;
+    border: 0;
+}
+
+img {
+    width: 20px;
+}

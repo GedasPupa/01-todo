@@ -1,6 +1,7 @@
 /* BASE */
 @import './base/reset.css';
 @import './base/variables.css';
+@import './base/grid.css';
 
 /* 3rd PARTY */
 
@@ -9,3 +10,5 @@
 @import './components/todo.css';
 
 /* CUSTOM STYLES GOES BELOW */
+
+
