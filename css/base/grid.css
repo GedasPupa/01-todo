@@ -58,12 +58,12 @@
 }
 
 .btn-3 {
-    grid-column: 12 / span 2;
+    grid-column: 13 / span 1;
     grid-row: 5;
 }
 
 .btn-4 {
-    grid-column: 14 / span 2;
+    grid-column: 14 / span 1;
     grid-row: 5;
 }
 
@@ -78,12 +78,12 @@
 }
 
 .btn-5 {
-    grid-column: 12 / span 2;
+    grid-column: 13 / span 1;
     grid-row: 6;
 }
 
 .btn-6 {
-    grid-column: 14 / span 2;
+    grid-column: 14 / span 1;
     grid-row: 6;
 }
 
@@ -98,12 +98,12 @@
 }
 
 .btn-7 {
-    grid-column: 12 / span 2;
+    grid-column: 13 / span 1;
     grid-row: 7;
 }
 
 .btn-8 {
-    grid-column: 14 / span 2;
+    grid-column: 14 / span 1;
     grid-row: 7;
 }
 /* <<< GRID */
