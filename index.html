@@ -6,34 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>TODO</title>
+    <!-- <script src="./js/script.js"></script> GALIMA IR TAIP (defer - narsykle atideda scripto vykdyma, bet ne visos narsykles ta moka)-->
 </head>
 <body>
-    <form class="container">
-        <input class="input input-1" placeholder="English"/>
-        <input class="input input-2" placeholder="Lietuviškai"/>
-        <button class="main-btn btn-1" type="submit">Save</button>
-        <button class="main-btn btn-2" type="reset">Reset</button>
 
-        <div class="label english">English</div>
-        <div class="label lietuviu">Lietuviškai</div>
-        <div class="label actions">Actions</div>
-
-        <div class="data output-1">Output - 1</div>
-        <div class="data output-2">Išvedimas - 2</div>
-        <button class="action-btn btn-3"><img src="./img/pencil.png" alt="icon-pencil"></button>
-        <button class="action-btn btn-4"><img src="./img/trash.png" alt="icon-trash"></button>
-
-        <div class="data output-3">Output - 3</div>
-        <div class="data output-4">Išvedimas - 4</div>
-        <button class="action-btn btn-5"><img src="./img/pencil.png" alt="icon-pencil"></button>
-        <button class="action-btn btn-6"><img src="./img/trash.png" alt="icon-trash"></button>
-
-        <div class="data output-5">Output - 5</div>
-        <div class="data output-6">Išvedimas - 6</div>
-        <button class="action-btn btn-7"><img src="./img/pencil.png" alt="icon-pencil"></button>
-        <button class="action-btn btn-8"><img src="./img/trash.png" alt="icon-trash"></button>
-
-
+    <form action="" class="form">
+        <div class="form-row">
+            <textarea class="text" placeholder="Message..."></textarea>
+        </div>
+        <div class="form-row">
+            <input type="color" class="color">
+        </div>
+        <div class="form-row">
+            <input type="date" class="date">
+        </div>
+        <div class="form-row">
+            <input type="checkbox" class="checkbox">
+            <span>Task is completed?</span>
+        </div>
+        <div class="form-row">
+            <button type="submit" class="save">Save</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
     </form>
+
+    <div class="list">
+        <div class="card">
+            <span class="badge completed">completed</span>
+            <span class="badge not-completed">not completed</span>
+            <p class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis placeat ratione rem adipisci inventore neque labore at, illum sequi eligendi.</p>
+            <p class="deadline">2021-01-01</p>
+        </div>
+        <div class="card">
+            <span class="badge completed">completed</span>
+            <span class="badge not-completed">not completed</span>
+            <p class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p class="deadline">2021-01-01</p>
+        </div>
+        <div class="card">
+            <span class="badge completed">completed</span>
+            <span class="badge not-completed">not completed</span>
+            <p class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis placeat ratione rem adipisci inventore neque labore at, illum sequi eligendi.</p>
+            <p class="deadline">2021-01-01</p>
+        </div>
+        <div class="card">
+            <span class="badge completed">completed</span>
+            <span class="badge not-completed">not completed</span>
+            <p class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque labore at, illum sequi eligendi.</p>
+            <p class="deadline">2021-01-01</p>
+        </div>
+        <div class="card">
+            <span class="badge completed">completed</span>
+            <span class="badge not-completed">not completed</span>
+            <p class="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis placeat ratione rem adipisci inventore neque labore at, illum sequi eligendi.</p>
+            <p class="deadline">2021-01-01</p>
+        </div>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+
 </body>
 </html>
