@@ -8,6 +8,7 @@ class Form {
         this.completedDOM = null;
         this.saveButtonDOM = null;
 
+        this.saveButtonCallback = null;
     }
 
     init() {
@@ -77,6 +78,7 @@ class Form {
 
             if (this.isValidTask(message, color, date, completed)) {
                 console.log('Task is valid');
+                this.saveButtonCallback(message, color, date, completed);
             } else {
                 console.log('Task is NOT valid');
             }
@@ -94,11 +96,10 @@ class Form {
     }
 
     isValidMessage(message) {
-        if (message.length >= 1) {
-            return true;
-        } else {
-            console.log("Too short message!!!");
+        if (typeof message !== 'string' || message === '') {
             return false;
+        } else {
+            return true;
         }
     }
 
@@ -106,8 +107,15 @@ class Form {
         return true;
     }
 
-    isValidDate(date) {
-        return true;
+    isValidDate(date="07/07/2021") {
+
+        if (typeof date !== 'string' || 
+            date === '' || 
+            isNaN(new Date(date).getTime()) ) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     isValidCompleted(completed) {
